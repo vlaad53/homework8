@@ -1,0 +1,60 @@
+.text-box h3:first-of-type {
+    color: pink;
+  }
+  
+  .text-box p:nth-of-type(2) {
+    color: grey;
+  }
+  
+  .text-box div:last-of-type p {
+    color: red;
+  }
+  
+  .text-box p:nth-of-type(4) {
+    color: green;
+  }
+  
+  .text-box p.yellow {
+    color: yellow;
+  }
+
+  .lessons-container .monday li:hover {
+    background-color: lightblue;
+  }
+  
+  .lessons-container .tuesday li:focus {
+    font-weight: bold;
+  }
+  
+  .lessons-container .wednesday li:active {
+    transform: scale(1.1);
+  }
+  
+  .lessons-container .thursday li:checked {
+    text-decoration: line-through;
+  }
+  
+  .lessons-container .friday li:disabled {
+    opacity: 0.5;
+  }
+  
+  /* Структурні псевдокласи */
+  .lessons-container ul:nth-child(odd) li {
+    background-color: lightgreen;
+  }
+  
+  .lessons-container ul:nth-child(even) li {
+    background-color: lightyellow;
+  }
+  
+  .lessons-container ul:first-child li {
+    border-bottom: 1px solid black;
+  }
+  
+  .lessons-container ul:last-child li {
+    border-top: 1px solid black;
+  }
+  
+  .lessons-container ul:not(:first-child) li {
+    margin-top: 10px;
+  }
